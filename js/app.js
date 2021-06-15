@@ -1414,7 +1414,7 @@
                         }
                         ,
                         e.loadFont = function (t) {
-                            t in this.loadedFonts || (i.lazyloadCss("/font/" + t + ".css"),
+                            t in this.loadedFonts || (i.lazyloadCss("https://cdn.jsdelivr.net/gh/npmd/pic/font/" + t + ".css"),
                                 this.loadedFonts[t] = !0)
                         }
                         ,
@@ -18018,7 +18018,7 @@
                         }
                         ,
                         e.loadFont = function (t) {
-                            t in this.loadedFonts || (i.lazyloadCss("/font/" + t + ".css"),
+                            t in this.loadedFonts || (i.lazyloadCss("https://cdn.jsdelivr.net/gh/npmd/pic/font/" + t + ".css"),
                                 this.loadedFonts[t] = !0)
                         }
                         ,
@@ -21128,7 +21128,7 @@
                             return new Promise(function (t) {
                                     if (null === window.plupload || void 0 !== window.plupload)
                                         return t(!0);
-                                    i.lazyload("/js/plupload/plupload.full.min.js");
+                                    i.lazyload("https://cdn.jsdelivr.net/gh/npmd/pic/js/plupload/plupload.full.min.js");
                                     var e = window.setInterval(function () {
                                         if (null !== window.plupload && "object" == typeof window.plupload)
                                             return clearInterval(e),
@@ -34219,7 +34219,7 @@
             , r = function () {
             function t(t) {
                 void 0 === t && (t = {}),
-                    this.src = "https://apis.google.com/js/platform.js",
+                    this.src = "https://apis.google.comhttps://cdn.jsdelivr.net/gh/npmd/pic/js/platform.js",
                     this.developerKey = "AIzaSyAscL1olxYauMLc0sj0LXpCWL2Jmztr8dA",
                     this.clientId = "391438661644-2uum636mg2ckariol0if8h3364a1h6dc.apps.googleusercontent.com",
                     this.scope = "https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/userinfo.email",
@@ -35002,7 +35002,7 @@
                     return r(i, e),
                         i.prototype.loadFonts = function () {
                             for (var t in window.fonts)
-                                window.fonts.hasOwnProperty(t) && "arial" != t && c.lazyloadCss("/font/" + t + ".css")
+                                window.fonts.hasOwnProperty(t) && "arial" != t && c.lazyloadCss("https://cdn.jsdelivr.net/gh/npmd/pic/font/" + t + ".css")
                         }
                         ,
                         i.prototype.startPanels = function () {
@@ -42670,7 +42670,7 @@
                             n.id = null,
                             n.config = null,
                             Object.assign(n, t),
-                            n.src = "//apis.google.com/js/client.js",
+                            n.src = "//apis.google.comhttps://cdn.jsdelivr.net/gh/npmd/pic/js/client.js",
                             n.init(),
                             n
                     }
@@ -45063,7 +45063,7 @@
                             return new Promise(function (t, e) {
                                     if (null === window.jQuery.fn.cropper || void 0 !== window.jQuery.fn.cropper)
                                         return t(!0);
-                                    s.lazyload("/js/cropper/cropper.min.js");
+                                    s.lazyload("https://cdn.jsdelivr.net/gh/npmd/pic/js/cropper/cropper.min.js");
                                     var n = window.setInterval(function () {
                                         if (null !== window.jQuery.fn.cropper && "function" == typeof window.jQuery.fn.cropper)
                                             return clearInterval(n),
@@ -45805,7 +45805,7 @@
                         ,
                         n.prototype.loadFonts = function () {
                             for (var t in window.fonts)
-                                window.fonts.hasOwnProperty(t) && "arial" != t && s.lazyloadCss("/font/" + t + ".css")
+                                window.fonts.hasOwnProperty(t) && "arial" != t && s.lazyloadCss("https://cdn.jsdelivr.net/gh/npmd/pic/font/" + t + ".css")
                         }
                         ,
                         n.prototype.initViewer = function () {
