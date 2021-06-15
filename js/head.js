@@ -5,7 +5,7 @@
 ga('create', 'UA-40716497-11', 'auto');
 ga('send', 'pageview');
 
-var cdn_static = "https://cdn.jsdelivr.net/gh/npmd/pic@1.3";
+var cdn_static = "https://cdn.jsdelivr.net/gh/npmd/pic@1.4";
 var app_name = "图片在线编辑器";
 var app_domain = "pic.ossoft.cn";
 var baid = "e0f530ffea0551b6a01a2dfaeb88154f";
