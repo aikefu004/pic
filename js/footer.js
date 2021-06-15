@@ -20,4 +20,4 @@ document.writeln('<div class="footer">\n' +
     '</div>');
 
 document.writeln('<div id="network" class="network"> <i class="ico ico--network"></i> <div class="network__text"> Woops! Something is wrong with your Internet connection...    </div> </div>');
-document.writeln('<script src="https://cdn.jsdelivr.net/gh/npmd/pic/js/analysis.js"></script>')
+document.writeln('<script src="https://cdn.jsdelivr.net/gh/npmd/pic@1.0/js/analysis.js"></script>')

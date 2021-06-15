@@ -80,7 +80,7 @@ function siteEnabledB(url) {
 
 function loadGoogleAds() {
     if (g_enabled_ads) {
-        document.write('<script async src="https://pagead2.googlesyndication.com/pageadhttps://cdn.jsdelivr.net/gh/npmd/pic/js/adsbygoogle.js"></script>');
+        document.write('<script async src="https://pagead2.googlesyndication.com/pageadhttps://cdn.jsdelivr.net/gh/npmd/pic@1.0/js/adsbygoogle.js"></script>');
         document.write('<ins class="adsbygoogle" style="display:block" data-ad-client="' + g_data_ad_client + '" data-ad-slot="' + g_data_ad_slot_auto + '" data-ad-format="auto" data-full-width-responsive="true"></ins>');
         document.write('<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>');
     }
