@@ -5,7 +5,7 @@
 ga('create', 'UA-40716497-11', 'auto');
 ga('send', 'pageview');
 
-var cdn_static = "https://cdn.jsdelivr.net/gh/npmd/pic";
+var cdn_static = "https://cdn.jsdelivr.net/gh/npmd/pic@1.0";
 var app_name = "图片在线编辑器";
 var app_domain = "pic.ossoft.cn";
 var baid = "e0f530ffea0551b6a01a2dfaeb88154f";
@@ -80,7 +80,7 @@ function siteEnabledB(url) {
 
 function loadGoogleAds() {
     if (g_enabled_ads) {
-        document.write('<script async src="https://pagead2.googlesyndication.com/pageadhttps://cdn.jsdelivr.net/gh/npmd/pic@1.0/js/adsbygoogle.js"></script>');
+        document.write('<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>');
         document.write('<ins class="adsbygoogle" style="display:block" data-ad-client="' + g_data_ad_client + '" data-ad-slot="' + g_data_ad_slot_auto + '" data-ad-format="auto" data-full-width-responsive="true"></ins>');
         document.write('<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>');
     }
