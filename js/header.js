@@ -10,7 +10,7 @@ document.writeln('<div class="header">\n' +
     '        <div class="brand">\n' +
     '            <div class="brand__logo">\n' +
     '                <a href="/">\n' +
-    '                    <img src="/img/logo.png" alt="photo editor"/>\n' +
+    '                    <img src='+cdn_static+'"/img/logo.png" alt="photo editor"/>\n' +
     '                </a>\n' +
     '            </div>\n' +
     '        </div>\n' +
