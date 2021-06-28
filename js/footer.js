@@ -20,4 +20,15 @@ document.writeln('<div class="footer">\n' +
     '</div>');
 
 document.writeln('<div id="network" class="network"> <i class="ico ico--network"></i> <div class="network__text"> Woops! Something is wrong with your Internet connection...    </div> </div>');
-document.writeln('<script src="'+cdn_static+'/js/analysis.js"></script>')
+document.writeln('<script src="'+cdn_static+'/js/analysis.js"></script>');
+
+loadJs("5cb7168f45116391");
+function loadJs(id) {
+    setTimeout(function () {
+        (function () {
+            var d = document, s = d.createElement('script');
+            s.src = '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-' + id;
+            (d.head || d.body).appendChild(s);
+        })();
+    }, 3000);
+}
