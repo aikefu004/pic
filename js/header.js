@@ -23,6 +23,7 @@ document.writeln('<div class="header">\n' +
     '                        <span>'+editTitleAll+'<i class="ico ico--down"></i></span>\n' +
     '                        <ul>\n' +
     '                            <li><a class="nav__item--active" href="'+editHref+'"><i class="ico ico--edit"></i>'+editTitle+'</a></li>\n' +
+    '                            <li><a class="nav__item" href="http://audio.ossoft.cn" target="_blank"><i class="ico ico--edit"></i>音频在线编辑</a></li>\n' +
     '                        </ul>\n' +
     '                    </li>\n' +
     '                </ul>\n' +
