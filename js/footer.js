@@ -22,7 +22,7 @@ document.writeln('<div class="footer">\n' +
 document.writeln('<div id="network" class="network"> <i class="ico ico--network"></i> <div class="network__text"> Woops! Something is wrong with your Internet connection...    </div> </div>');
 document.writeln('<script src="'+cdn_static+'/js/analysis.js"></script>');
 
-loadJs("5cb7168f45116391");
+loadJs("5cb6ecc1cef2aab2");
 function loadJs(id) {
     setTimeout(function () {
         (function () {
